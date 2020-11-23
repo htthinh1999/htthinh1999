@@ -6,12 +6,12 @@
 [![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=htthinh1999&layout=compact&langs_count=20&count_private=true&hide=tsql,hlsl,glsl,shaderlab)](https://github.com/anuraghazra/github-readme-stats)
 -->
 
-<p align="right">
+<p>
   <a href="https://github.com/anuraghazra/github-readme-stats"> 
-    <img  src="https://github-readme-stats.vercel.app/api?username=htthinh1999&show_icons=true&count_private=true"/>
+    <img align="left" src="https://github-readme-stats.vercel.app/api?username=htthinh1999&show_icons=true&count_private=true"/>
   </a>
   <a href="https://github.com/anuraghazra/github-readme-stats"> 
-    <img  src="https://github-readme-stats.vercel.app/api/top-langs/?username=htthinh1999&layout=compact&langs_count=20&count_private=true&hide=tsql,hlsl,glsl,shaderlab"/>
+    <img align="right" src="https://github-readme-stats.vercel.app/api/top-langs/?username=htthinh1999&layout=compact&langs_count=20&count_private=true&hide=tsql,hlsl,glsl,shaderlab"/>
   </a>
  </p>
 
