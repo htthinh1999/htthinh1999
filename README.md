@@ -6,12 +6,12 @@
 </p>
 <p align="center">
   <a href="https://github.com/anuraghazra/github-readme-stats"> 
-    <img align="center" src="https://github-readme-stats.vercel.app/api?username=htthinh1999&show_icons=true&count_private=true"/>
+    <img align="center" src="https://github-readme-stats.vercel.app/api?username=htthinh1999&show_icons=true&count_private=true&theme=dracula"/>
   </a>
 </p>
 <p align="center">
   <a href="https://github.com/anuraghazra/github-readme-stats"> 
-    <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=htthinh1999&layout=compact&langs_count=20&count_private=true&hide=tsql,hlsl,glsl,shaderlab"/>
+    <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=htthinh1999&layout=compact&langs_count=20&count_private=true&hide=tsql,hlsl,glsl,shaderlab&theme=dracula"/>
   </a>
 </p>
 
