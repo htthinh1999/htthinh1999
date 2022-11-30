@@ -14,5 +14,10 @@
     <img src="https://github-readme-stats-kappa-pink.vercel.app/api/top-langs/?username=htthinh1999&layout=compact&langs_count=6&count_private=true&hide=tsql,hlsl,glsl,shaderlab&theme=dracula"/>
   </a>
 </p>
-<!--START_SECTION:waka-->
-<!--END_SECTION:waka-->
+<p align="center">
+  <a href="https://github.com/htthinh1999"> 
+    <!--START_SECTION:waka-->
+    <!--END_SECTION:waka-->
+  </a>
+</p>
+
