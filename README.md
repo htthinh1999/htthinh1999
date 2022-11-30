@@ -1,4 +1,3 @@
-<!-- Huỳnh Tấn Thịnh Profile -->
 <p align="center">
   <a href="say-hi.gif"> 
     <img align="center" src="say-hi.gif"/>
