@@ -11,8 +11,11 @@ jobs:
     name: Update this repo's README
     runs-on: ubuntu-latest
     steps:
-      - uses: athul/waka-readme@master
+      - uses: anmol098/waka-readme-stats@master
         with:
           WAKATIME_API_KEY: ${{ secrets.WAKATIME_API_KEY }}
-          TIME_RANGE: last_7_days
-          SHOW_TITLE: true
+          GH_TOKEN: ${{ secrets.GH_TOKEN }}
+          SHOW_COMMIT: True
+          SHOW_DAYS_OF_WEEK: True
+          SHOW_LANGUAGE: True
+          SHOW_LANGUAGE_PER_REPO: True
