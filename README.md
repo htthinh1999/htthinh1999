@@ -17,7 +17,7 @@
 <!--START_SECTION:waka-->
 ![Code Time](http://img.shields.io/badge/Code%20Time-0%20secs-blue)
 
-![Profile Views](http://img.shields.io/badge/Profile%20Views-33-blue)
+![Profile Views](http://img.shields.io/badge/Profile%20Views-0-blue)
 
 **🐱 My GitHub Data** 
 
@@ -86,5 +86,5 @@ TSQL                     3 repos             █░░░░░░░░░░�
 
 
 
- Last Updated on 17/12/2022 00:47:22 UTC
+ Last Updated on 18/12/2022 00:49:22 UTC
 <!--END_SECTION:waka-->
