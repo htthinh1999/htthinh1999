@@ -17,7 +17,7 @@
 <!--START_SECTION:waka-->
 ![Code Time](http://img.shields.io/badge/Code%20Time-0%20secs-blue)
 
-![Profile Views](http://img.shields.io/badge/Profile%20Views-7-blue)
+![Profile Views](http://img.shields.io/badge/Profile%20Views-4-blue)
 
 **🐱 My GitHub Data** 
 
@@ -83,5 +83,5 @@ Dart                     1 repo              ░░░░░░░░░░░�
 
 
 
- Last Updated on 29/12/2023 00:40:38 UTC
+ Last Updated on 30/12/2023 00:47:41 UTC
 <!--END_SECTION:waka-->
