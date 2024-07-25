@@ -15,8 +15,6 @@
 </p>
 
 <!--START_SECTION:waka-->
-![Code Time](http://img.shields.io/badge/Code%20Time-0%20secs-blue)
-
 ![Profile Views](http://img.shields.io/badge/Profile%20Views-0-blue)
 
 **🐱 My GitHub Data** 
@@ -83,5 +81,5 @@ Shell                    2 repos             █░░░░░░░░░░�
 
 
 
- Last Updated on 24/07/2024 00:16:50 UTC
+ Last Updated on 25/07/2024 00:16:06 UTC
 <!--END_SECTION:waka-->
