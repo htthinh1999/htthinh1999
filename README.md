@@ -73,15 +73,15 @@ No Activity Tracked This Week
 **I Mostly Code in C#** 
 
 ```text
-C#                       33 repos            █████████░░░░░░░░░░░░░░░░   37.08 % 
-TypeScript               12 repos            ███░░░░░░░░░░░░░░░░░░░░░░   13.48 % 
-HTML                     4 repos             █░░░░░░░░░░░░░░░░░░░░░░░░   04.49 % 
-Dart                     3 repos             █░░░░░░░░░░░░░░░░░░░░░░░░   03.37 % 
-Shell                    2 repos             █░░░░░░░░░░░░░░░░░░░░░░░░   02.25 % 
+C#                       33 repos            █████████░░░░░░░░░░░░░░░░   36.67 % 
+TypeScript               12 repos            ███░░░░░░░░░░░░░░░░░░░░░░   13.33 % 
+JavaScript               8 repos             ██░░░░░░░░░░░░░░░░░░░░░░░   08.89 % 
+HTML                     4 repos             █░░░░░░░░░░░░░░░░░░░░░░░░   04.44 % 
+Dart                     3 repos             █░░░░░░░░░░░░░░░░░░░░░░░░   03.33 % 
 ```
 
 
 
 
- Last Updated on 17/02/2025 00:17:27 UTC
+ Last Updated on 18/02/2025 00:17:06 UTC
 <!--END_SECTION:waka-->
