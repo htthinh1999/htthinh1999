@@ -15,6 +15,8 @@
 </p>
 
 <!--START_SECTION:waka-->
+![Code Time](http://img.shields.io/badge/Code%20Time-0%20secs-blue)
+
 ![Profile Views](http://img.shields.io/badge/Profile%20Views-8-blue)
 
 **🐱 My GitHub Data** 
@@ -81,5 +83,5 @@ Smarty                   1 repo              ░░░░░░░░░░░�
 
 
 
- Last Updated on 31/07/2025 00:18:56 UTC
+ Last Updated on 01/08/2025 00:21:03 UTC
 <!--END_SECTION:waka-->
