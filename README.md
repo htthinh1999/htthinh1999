@@ -15,13 +15,15 @@
 </p>
 
 <!--START_SECTION:waka-->
+![Code Time](http://img.shields.io/badge/Code%20Time-0%20secs-blue)
+
 ![Profile Views](http://img.shields.io/badge/Profile%20Views-4-blue)
 
 **🐱 My GitHub Data** 
 
 > 📦 1.7 MB Used in GitHub's Storage 
  > 
-> 🏆 7 Contributions in the Year 2026
+> 🏆 9 Contributions in the Year 2026
  > 
 > 🚫 Not Opted to Hire
  > 
@@ -29,6 +31,45 @@
  > 
 > 🔑 37 Private Repositories 
  > 
+**I'm an Early 🐤** 
+
+```text
+🌞 Morning                2263 commits        ████░░░░░░░░░░░░░░░░░░░░░   17.55 % 
+🌆 Daytime                4289 commits        ████████░░░░░░░░░░░░░░░░░   33.25 % 
+🌃 Evening                4703 commits        █████████░░░░░░░░░░░░░░░░   36.46 % 
+🌙 Night                  1643 commits        ███░░░░░░░░░░░░░░░░░░░░░░   12.74 % 
+```
+📅 **I'm Most Productive on Saturday** 
+
+```text
+Monday                   1723 commits        ███░░░░░░░░░░░░░░░░░░░░░░   13.36 % 
+Tuesday                  1559 commits        ███░░░░░░░░░░░░░░░░░░░░░░   12.09 % 
+Wednesday                1951 commits        ████░░░░░░░░░░░░░░░░░░░░░   15.13 % 
+Thursday                 1987 commits        ████░░░░░░░░░░░░░░░░░░░░░   15.41 % 
+Friday                   1569 commits        ███░░░░░░░░░░░░░░░░░░░░░░   12.16 % 
+Saturday                 2086 commits        ████░░░░░░░░░░░░░░░░░░░░░   16.17 % 
+Sunday                   2023 commits        ████░░░░░░░░░░░░░░░░░░░░░   15.68 % 
+```
+
+
+📊 **This Week I Spent My Time On** 
+
+```text
+🕑︎ Time Zone: Asia/Bangkok
+
+💬 Programming Languages: 
+No Activity Tracked This Week
+
+🔥 Editors: 
+No Activity Tracked This Week
+
+🐱‍💻 Projects: 
+No Activity Tracked This Week
+
+💻 Operating System: 
+No Activity Tracked This Week
+```
+
 **I Mostly Code in C#** 
 
 ```text
@@ -42,5 +83,5 @@ Groovy                   1 repo              ░░░░░░░░░░░�
 
 
 
- Last Updated on 04/01/2026 00:21:14 UTC
+ Last Updated on 05/01/2026 00:20:42 UTC
 <!--END_SECTION:waka-->
