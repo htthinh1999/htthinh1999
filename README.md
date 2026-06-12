@@ -23,7 +23,7 @@
 
 > 📦 1.7 MB Used in GitHub's Storage 
  > 
-> 🏆 494 Contributions in the Year 2026
+> 🏆 498 Contributions in the Year 2026
  > 
 > 🚫 Not Opted to Hire
  > 
@@ -31,18 +31,57 @@
  > 
 > 🔑 39 Private Repositories 
  > 
+**I'm an Early 🐤** 
+
+```text
+🌞 Morning                2479 commits        ████░░░░░░░░░░░░░░░░░░░░░   17.10 % 
+🌆 Daytime                4807 commits        ████████░░░░░░░░░░░░░░░░░   33.17 % 
+🌃 Evening                5321 commits        █████████░░░░░░░░░░░░░░░░   36.71 % 
+🌙 Night                  1887 commits        ███░░░░░░░░░░░░░░░░░░░░░░   13.02 % 
+```
+📅 **I'm Most Productive on Saturday** 
+
+```text
+Monday                   1862 commits        ███░░░░░░░░░░░░░░░░░░░░░░   12.85 % 
+Tuesday                  1674 commits        ███░░░░░░░░░░░░░░░░░░░░░░   11.55 % 
+Wednesday                2270 commits        ████░░░░░░░░░░░░░░░░░░░░░   15.66 % 
+Thursday                 2137 commits        ████░░░░░░░░░░░░░░░░░░░░░   14.74 % 
+Friday                   1717 commits        ███░░░░░░░░░░░░░░░░░░░░░░   11.85 % 
+Saturday                 2461 commits        ████░░░░░░░░░░░░░░░░░░░░░   16.98 % 
+Sunday                   2373 commits        ████░░░░░░░░░░░░░░░░░░░░░   16.37 % 
+```
+
+
+📊 **This Week I Spent My Time On** 
+
+```text
+🕑︎ Time Zone: Asia/Bangkok
+
+💬 Programming Languages: 
+No Activity Tracked This Week
+
+🔥 Editors: 
+No Activity Tracked This Week
+
+🐱‍💻 Projects: 
+No Activity Tracked This Week
+
+💻 Operating System: 
+No Activity Tracked This Week
+```
+
 **I Mostly Code in C#** 
 
 ```text
-C#                       34 repos            ████████░░░░░░░░░░░░░░░░░   33.33 % 
-HCL                      5 repos             █░░░░░░░░░░░░░░░░░░░░░░░░   04.90 % 
-Dart                     3 repos             █░░░░░░░░░░░░░░░░░░░░░░░░   02.94 % 
-Dockerfile               2 repos             ░░░░░░░░░░░░░░░░░░░░░░░░░   01.96 % 
-Groovy                   1 repo              ░░░░░░░░░░░░░░░░░░░░░░░░░   00.98 % 
+C#                       34 repos            ████████░░░░░░░░░░░░░░░░░   33.66 % 
+HCL                      5 repos             █░░░░░░░░░░░░░░░░░░░░░░░░   04.95 % 
+Dart                     3 repos             █░░░░░░░░░░░░░░░░░░░░░░░░   02.97 % 
+Dockerfile               2 repos             ░░░░░░░░░░░░░░░░░░░░░░░░░   01.98 % 
+Groovy                   1 repo              ░░░░░░░░░░░░░░░░░░░░░░░░░   00.99 % 
 ```
 
 
 
 
- Last Updated on 11/06/2026 00:48:17 UTC
+ Last Updated on 12/06/2026 00:50:10 UTC
 <!--END_SECTION:waka-->
