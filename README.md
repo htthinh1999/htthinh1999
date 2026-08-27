@@ -81,13 +81,13 @@ No AI Coding Activity Tracked This Week
 ```text
 C#                       34 repos            ████████░░░░░░░░░░░░░░░░░   33.66 % 
 HCL                      5 repos             █░░░░░░░░░░░░░░░░░░░░░░░░   04.95 % 
-Shell                    4 repos             █░░░░░░░░░░░░░░░░░░░░░░░░   03.96 % 
 Dart                     3 repos             █░░░░░░░░░░░░░░░░░░░░░░░░   02.97 % 
+Go Template              1 repo              ░░░░░░░░░░░░░░░░░░░░░░░░░   00.99 % 
 Groovy                   1 repo              ░░░░░░░░░░░░░░░░░░░░░░░░░   00.99 % 
 ```
 
 
 
 
- Last Updated on 26/08/2026 01:01:24 UTC
+ Last Updated on 27/08/2026 06:44:29 UTC
 <!--END_SECTION:waka-->
