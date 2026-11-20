@@ -1,0 +1,20 @@
+{
+  "name": "htthinh1999-profile",
+  "version": "2.0.0",
+  "private": true,
+  "description": "GitHub profile README with self-hosted, WakaTime-free metric cards",
+  "license": "MIT",
+  "type": "module",
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "metrics": "node scripts/profile-metrics/cli.mjs",
+    "preview": "node scripts/profile-metrics/cli.mjs --fixture scripts/profile-metrics/fixtures/sample-raw.json --out dist",
+    "assets": "node scripts/profile-metrics/assets.mjs",
+    "test": "node --test scripts/profile-metrics/test/*.test.mjs"
+  },
+  "devDependencies": {
+    "@octokit/graphql-schema": "^15.26.1"
+  }
+}

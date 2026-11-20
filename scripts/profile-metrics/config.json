@@ -1,0 +1,78 @@
+{
+  "login": "htthinh1999",
+  "timeZone": "Asia/Ho_Chi_Minh",
+  "header": {
+    "greeting": "Hey there, I'm",
+    "name": "Huỳnh Tấn Thịnh",
+    "roles": [
+      "Software Engineer",
+      "Backend services with C# & .NET",
+      "Cross-platform apps with Flutter",
+      "Kubernetes · Terraform · GitOps"
+    ],
+    "location": "Nha Trang, Việt Nam",
+    "website": "info.keycodemon.org"
+  },
+  "stack": [
+    {
+      "label": "Languages",
+      "items": [
+        "C#",
+        "Dart",
+        "TypeScript",
+        "JavaScript",
+        "SQL"
+      ]
+    },
+    {
+      "label": "Backend & apps",
+      "items": [
+        ".NET",
+        "ASP.NET Core",
+        "Flutter",
+        "Node.js"
+      ]
+    },
+    {
+      "label": "Cloud & platform",
+      "items": [
+        "Kubernetes",
+        "Helm",
+        "Docker",
+        "Terraform",
+        "Google Cloud",
+        "Cloudflare"
+      ]
+    },
+    {
+      "label": "Delivery",
+      "items": [
+        "GitHub Actions",
+        "Argo CD",
+        "Jenkins"
+      ]
+    },
+    {
+      "label": "Data",
+      "items": [
+        "SQL Server",
+        "MySQL"
+      ]
+    }
+  ],
+  "languages": {
+    "exclude": [
+      "TSQL",
+      "HLSL",
+      "GLSL",
+      "ShaderLab"
+    ],
+    "limit": 7,
+    "sizeWeight": 0.5,
+    "countWeight": 0.5
+  },
+  "rhythm": {
+    "excludeRepositories": [],
+    "maxRepositories": 400
+  }
+}
