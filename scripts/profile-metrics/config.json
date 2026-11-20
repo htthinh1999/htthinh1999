@@ -65,7 +65,10 @@
       "TSQL",
       "HLSL",
       "GLSL",
-      "ShaderLab"
+      "ShaderLab",
+      "CSS",
+      "HTML",
+      "SCSS"
     ],
     "limit": 7,
     "sizeWeight": 0.5,
