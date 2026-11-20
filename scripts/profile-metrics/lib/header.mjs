@@ -46,13 +46,12 @@ function particles(theme) {
   // Deterministic bokeh field on the right; a mask fades it out toward the text.
   let seed = 47586956;
   const rand = () => (seed = (seed * 16807) % 2147483647) / 2147483647;
-  const strength = theme.name === 'dark' ? 1 : 0.75;
   const dots = [];
   for (let i = 0; i < 34; i += 1) {
     const x = 420 + Math.sqrt(rand()) * 470;
     const y = 8 + rand() * (HEIGHT - 16);
     const r = 3 + rand() ** 2.2 * 42;
-    const opacity = ((0.16 + rand() * 0.5) * strength).toFixed(2);
+    const opacity = (theme.name === 'dark' ? 0.16 + rand() * 0.5 : 0.38 + rand() * 0.5).toFixed(2);
     const duration = (8 + rand() * 10).toFixed(1);
     const wait = (-rand() * 14).toFixed(1);
     const variant = ['a', 'b', 'c'][i % 3];
@@ -99,15 +98,15 @@ export function renderHeader(header, theme) {
 <defs>
 <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
 <stop offset="0" stop-color="${theme.bg}"/>
-<stop offset="1" stop-color="${isDark ? '#1b0d15' : '#fff1f4'}"/>
+<stop offset="1" stop-color="${isDark ? '#1f0b0a' : '#fff4f2'}"/>
 </linearGradient>
 <radialGradient id="glow" cx="0.82" cy="0.2" r="0.55">
-<stop offset="0" stop-color="${theme.accent}" stop-opacity="${isDark ? 0.22 : 0.12}"/>
+<stop offset="0" stop-color="${theme.accent}" stop-opacity="${isDark ? 0.22 : 0.08}"/>
 <stop offset="1" stop-color="${theme.accent}" stop-opacity="0"/>
 </radialGradient>
 <radialGradient id="bokeh">
 <stop offset="0" stop-color="${theme.accentStrong}"/>
-<stop offset="0.55" stop-color="${theme.accent}" stop-opacity="0.55"/>
+<stop offset="0.55" stop-color="${theme.accent}" stop-opacity="${isDark ? 0.55 : 0.8}"/>
 <stop offset="1" stop-color="${theme.accent}" stop-opacity="0"/>
 </radialGradient>
 <linearGradient id="fadeGradient" x1="0" y1="0" x2="1" y2="0">
@@ -131,7 +130,7 @@ export function renderHeader(header, theme) {
 @keyframes blink{50%{opacity:0}}
 @keyframes drift-a{0%,100%{transform:translate(0,0)}50%{transform:translate(-10px,-14px)}}
 @keyframes drift-b{0%,100%{transform:translate(0,0) scale(1)}50%{transform:translate(8px,-10px) scale(1.12)}}
-@keyframes drift-c{0%,100%{transform:translate(0,0);opacity:.25}50%{transform:translate(-4px,10px);opacity:.6}}
+@keyframes drift-c{0%,100%{transform:translate(0,0);opacity:${isDark ? 0.25 : 0.45}}50%{transform:translate(-4px,10px);opacity:${isDark ? 0.6 : 0.85}}}
 @media (prefers-reduced-motion:reduce){.p,.caret{animation:none}.typed{display:none}.static{display:inline}}
 </style>
 <g clip-path="url(#frame)">

@@ -257,7 +257,7 @@ export function renderRhythm(model, theme) {
       }
       const t = Math.sqrt(count / max);
       const radius = (1.8 + 7.7 * t).toFixed(2);
-      const opacity = (0.22 + 0.78 * t).toFixed(2);
+      const opacity = (0.45 + 0.55 * t).toFixed(2);
       dots.push(
         `<circle class="pop" ${delay(h * 25 + d * 10)} cx="${cx}" cy="${cy}" r="${radius}" fill="${theme.accent}" fill-opacity="${opacity}"/>`,
       );

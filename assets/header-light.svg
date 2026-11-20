@@ -4,16 +4,16 @@
 <defs>
 <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
 <stop offset="0" stop-color="#ffffff"/>
-<stop offset="1" stop-color="#fff1f4"/>
+<stop offset="1" stop-color="#fff4f2"/>
 </linearGradient>
 <radialGradient id="glow" cx="0.82" cy="0.2" r="0.55">
-<stop offset="0" stop-color="#d6264a" stop-opacity="0.12"/>
-<stop offset="1" stop-color="#d6264a" stop-opacity="0"/>
+<stop offset="0" stop-color="#d1242f" stop-opacity="0.08"/>
+<stop offset="1" stop-color="#d1242f" stop-opacity="0"/>
 </radialGradient>
 <radialGradient id="bokeh">
-<stop offset="0" stop-color="#b5173a"/>
-<stop offset="0.55" stop-color="#d6264a" stop-opacity="0.55"/>
-<stop offset="1" stop-color="#d6264a" stop-opacity="0"/>
+<stop offset="0" stop-color="#b3121c"/>
+<stop offset="0.55" stop-color="#d1242f" stop-opacity="0.8"/>
+<stop offset="1" stop-color="#d1242f" stop-opacity="0"/>
 </radialGradient>
 <linearGradient id="fadeGradient" x1="0" y1="0" x2="1" y2="0">
 <stop offset="0.42" stop-color="#fff" stop-opacity="0"/>
@@ -23,12 +23,12 @@
 <clipPath id="frame"><rect width="900" height="240" rx="16"/></clipPath>
 </defs>
 <style>
-.greet{font:500 15px ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace;fill:#d6264a}
+.greet{font:500 15px ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace;fill:#d1242f}
 .name{font:700 44px -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif;fill:#1f2328;letter-spacing:-0.5px}
 .type{font:400 18px ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace;fill:#1f2328}
-.prompt{font:700 18px ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace;fill:#d6264a}
+.prompt{font:700 18px ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace;fill:#d1242f}
 .meta{font:400 13px -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif;fill:#59636e}
-.caret{fill:#d6264a;animation:blink 1.05s steps(1) infinite}
+.caret{fill:#d1242f;animation:blink 1.05s steps(1) infinite}
 .static{display:none}
 .p{transform-box:fill-box;transform-origin:center;animation:drift-a 12s ease-in-out infinite}
 .b{animation-name:drift-b}
@@ -36,47 +36,47 @@
 @keyframes blink{50%{opacity:0}}
 @keyframes drift-a{0%,100%{transform:translate(0,0)}50%{transform:translate(-10px,-14px)}}
 @keyframes drift-b{0%,100%{transform:translate(0,0) scale(1)}50%{transform:translate(8px,-10px) scale(1.12)}}
-@keyframes drift-c{0%,100%{transform:translate(0,0);opacity:.25}50%{transform:translate(-4px,10px);opacity:.6}}
+@keyframes drift-c{0%,100%{transform:translate(0,0);opacity:0.45}50%{transform:translate(-4px,10px);opacity:0.85}}
 @media (prefers-reduced-motion:reduce){.p,.caret{animation:none}.typed{display:none}.static{display:inline}}
 </style>
 <g clip-path="url(#frame)">
 <rect width="900" height="240" fill="url(#bg)"/>
 <rect width="900" height="240" fill="url(#glow)"/>
 <g mask="url(#fade)">
-<circle class="p a" style="animation-duration:8.8s;animation-delay:-2.3s" cx="729.3" cy="217.8" r="4.5" fill="url(#bokeh)" opacity="0.36"/>
-<circle class="p b" style="animation-duration:12.9s;animation-delay:-0.6s" cx="554.5" cy="100.2" r="3.9" fill="url(#bokeh)" opacity="0.39"/>
-<circle class="p c" style="animation-duration:10.1s;animation-delay:-3.5s" cx="703.2" cy="120.6" r="11.1" fill="url(#bokeh)" opacity="0.42"/>
-<circle class="p a" style="animation-duration:13.9s;animation-delay:-7.5s" cx="813.8" cy="145.9" r="22.0" fill="url(#bokeh)" opacity="0.44"/>
-<circle class="p b" style="animation-duration:8.9s;animation-delay:-13.5s" cx="780.2" cy="132.1" r="4.4" fill="url(#bokeh)" opacity="0.45"/>
-<circle class="p c" style="animation-duration:10.5s;animation-delay:-9.5s" cx="680.2" cy="137.4" r="3.1" fill="url(#bokeh)" opacity="0.39"/>
-<circle class="p a" style="animation-duration:13.8s;animation-delay:-3.3s" cx="811.5" cy="122.9" r="10.6" fill="url(#bokeh)" opacity="0.21"/>
-<circle class="p b" style="animation-duration:13.4s;animation-delay:-2.8s" cx="811.7" cy="225.7" r="25.3" fill="url(#bokeh)" opacity="0.46"/>
-<circle class="p c" style="animation-duration:13.1s;animation-delay:-10.0s" cx="624.4" cy="88.3" r="5.3" fill="url(#bokeh)" opacity="0.30"/>
-<circle class="p a" style="animation-duration:17.3s;animation-delay:-13.9s" cx="830.4" cy="191.6" r="5.9" fill="url(#bokeh)" opacity="0.20"/>
-<circle class="p b" style="animation-duration:15.7s;animation-delay:-10.8s" cx="865.9" cy="185.7" r="41.1" fill="url(#bokeh)" opacity="0.32"/>
-<circle class="p c" style="animation-duration:12.9s;animation-delay:-6.9s" cx="879.3" cy="69.9" r="19.9" fill="url(#bokeh)" opacity="0.49"/>
-<circle class="p a" style="animation-duration:14.6s;animation-delay:-4.6s" cx="731.3" cy="98.4" r="37.5" fill="url(#bokeh)" opacity="0.13"/>
-<circle class="p b" style="animation-duration:14.0s;animation-delay:-1.8s" cx="809.8" cy="204.5" r="10.0" fill="url(#bokeh)" opacity="0.35"/>
-<circle class="p c" style="animation-duration:9.1s;animation-delay:-11.7s" cx="531.2" cy="215.7" r="15.1" fill="url(#bokeh)" opacity="0.44"/>
-<circle class="p a" style="animation-duration:8.4s;animation-delay:-3.9s" cx="724.4" cy="119.6" r="3.8" fill="url(#bokeh)" opacity="0.15"/>
-<circle class="p b" style="animation-duration:14.4s;animation-delay:-3.2s" cx="751.2" cy="181.2" r="4.0" fill="url(#bokeh)" opacity="0.23"/>
-<circle class="p c" style="animation-duration:8.3s;animation-delay:-7.8s" cx="747.3" cy="142.5" r="27.7" fill="url(#bokeh)" opacity="0.24"/>
-<circle class="p a" style="animation-duration:9.8s;animation-delay:-4.7s" cx="548.5" cy="118.2" r="10.2" fill="url(#bokeh)" opacity="0.29"/>
-<circle class="p b" style="animation-duration:15.9s;animation-delay:-5.2s" cx="822.6" cy="230.0" r="3.1" fill="url(#bokeh)" opacity="0.49"/>
-<circle class="p c" style="animation-duration:16.7s;animation-delay:-10.3s" cx="600.1" cy="31.8" r="34.6" fill="url(#bokeh)" opacity="0.23"/>
-<circle class="p a" style="animation-duration:14.1s;animation-delay:-14.0s" cx="758.4" cy="212.0" r="19.5" fill="url(#bokeh)" opacity="0.48"/>
-<circle class="p b" style="animation-duration:13.2s;animation-delay:-7.5s" cx="857.1" cy="74.1" r="6.7" fill="url(#bokeh)" opacity="0.33"/>
-<circle class="p c" style="animation-duration:16.3s;animation-delay:-12.2s" cx="432.4" cy="165.2" r="10.6" fill="url(#bokeh)" opacity="0.41"/>
-<circle class="p a" style="animation-duration:10.1s;animation-delay:-5.1s" cx="713.3" cy="156.7" r="4.6" fill="url(#bokeh)" opacity="0.37"/>
-<circle class="p b" style="animation-duration:9.8s;animation-delay:-9.2s" cx="698.0" cy="47.3" r="9.3" fill="url(#bokeh)" opacity="0.14"/>
-<circle class="p c" style="animation-duration:16.5s;animation-delay:-3.5s" cx="872.7" cy="40.1" r="3.0" fill="url(#bokeh)" opacity="0.24"/>
-<circle class="p a" style="animation-duration:14.3s;animation-delay:-8.5s" cx="661.6" cy="172.4" r="12.5" fill="url(#bokeh)" opacity="0.17"/>
-<circle class="p b" style="animation-duration:12.7s;animation-delay:-5.0s" cx="817.4" cy="90.7" r="34.3" fill="url(#bokeh)" opacity="0.15"/>
-<circle class="p c" style="animation-duration:11.8s;animation-delay:-9.7s" cx="826.1" cy="72.8" r="17.9" fill="url(#bokeh)" opacity="0.33"/>
-<circle class="p a" style="animation-duration:9.5s;animation-delay:-5.4s" cx="565.1" cy="64.6" r="11.0" fill="url(#bokeh)" opacity="0.38"/>
-<circle class="p b" style="animation-duration:14.9s;animation-delay:-13.6s" cx="564.0" cy="178.6" r="18.8" fill="url(#bokeh)" opacity="0.17"/>
-<circle class="p c" style="animation-duration:8.0s;animation-delay:-9.4s" cx="721.9" cy="78.6" r="36.9" fill="url(#bokeh)" opacity="0.30"/>
-<circle class="p a" style="animation-duration:12.6s;animation-delay:-13.7s" cx="794.0" cy="66.6" r="8.5" fill="url(#bokeh)" opacity="0.46"/>
+<circle class="p a" style="animation-duration:8.8s;animation-delay:-2.3s" cx="729.3" cy="217.8" r="4.5" fill="url(#bokeh)" opacity="0.70"/>
+<circle class="p b" style="animation-duration:12.9s;animation-delay:-0.6s" cx="554.5" cy="100.2" r="3.9" fill="url(#bokeh)" opacity="0.74"/>
+<circle class="p c" style="animation-duration:10.1s;animation-delay:-3.5s" cx="703.2" cy="120.6" r="11.1" fill="url(#bokeh)" opacity="0.78"/>
+<circle class="p a" style="animation-duration:13.9s;animation-delay:-7.5s" cx="813.8" cy="145.9" r="22.0" fill="url(#bokeh)" opacity="0.80"/>
+<circle class="p b" style="animation-duration:8.9s;animation-delay:-13.5s" cx="780.2" cy="132.1" r="4.4" fill="url(#bokeh)" opacity="0.82"/>
+<circle class="p c" style="animation-duration:10.5s;animation-delay:-9.5s" cx="680.2" cy="137.4" r="3.1" fill="url(#bokeh)" opacity="0.74"/>
+<circle class="p a" style="animation-duration:13.8s;animation-delay:-3.3s" cx="811.5" cy="122.9" r="10.6" fill="url(#bokeh)" opacity="0.50"/>
+<circle class="p b" style="animation-duration:13.4s;animation-delay:-2.8s" cx="811.7" cy="225.7" r="25.3" fill="url(#bokeh)" opacity="0.84"/>
+<circle class="p c" style="animation-duration:13.1s;animation-delay:-10.0s" cx="624.4" cy="88.3" r="5.3" fill="url(#bokeh)" opacity="0.62"/>
+<circle class="p a" style="animation-duration:17.3s;animation-delay:-13.9s" cx="830.4" cy="191.6" r="5.9" fill="url(#bokeh)" opacity="0.49"/>
+<circle class="p b" style="animation-duration:15.7s;animation-delay:-10.8s" cx="865.9" cy="185.7" r="41.1" fill="url(#bokeh)" opacity="0.65"/>
+<circle class="p c" style="animation-duration:12.9s;animation-delay:-6.9s" cx="879.3" cy="69.9" r="19.9" fill="url(#bokeh)" opacity="0.88"/>
+<circle class="p a" style="animation-duration:14.6s;animation-delay:-4.6s" cx="731.3" cy="98.4" r="37.5" fill="url(#bokeh)" opacity="0.40"/>
+<circle class="p b" style="animation-duration:14.0s;animation-delay:-1.8s" cx="809.8" cy="204.5" r="10.0" fill="url(#bokeh)" opacity="0.69"/>
+<circle class="p c" style="animation-duration:9.1s;animation-delay:-11.7s" cx="531.2" cy="215.7" r="15.1" fill="url(#bokeh)" opacity="0.81"/>
+<circle class="p a" style="animation-duration:8.4s;animation-delay:-3.9s" cx="724.4" cy="119.6" r="3.8" fill="url(#bokeh)" opacity="0.42"/>
+<circle class="p b" style="animation-duration:14.4s;animation-delay:-3.2s" cx="751.2" cy="181.2" r="4.0" fill="url(#bokeh)" opacity="0.53"/>
+<circle class="p c" style="animation-duration:8.3s;animation-delay:-7.8s" cx="747.3" cy="142.5" r="27.7" fill="url(#bokeh)" opacity="0.55"/>
+<circle class="p a" style="animation-duration:9.8s;animation-delay:-4.7s" cx="548.5" cy="118.2" r="10.2" fill="url(#bokeh)" opacity="0.61"/>
+<circle class="p b" style="animation-duration:15.9s;animation-delay:-5.2s" cx="822.6" cy="230.0" r="3.1" fill="url(#bokeh)" opacity="0.87"/>
+<circle class="p c" style="animation-duration:16.7s;animation-delay:-10.3s" cx="600.1" cy="31.8" r="34.6" fill="url(#bokeh)" opacity="0.53"/>
+<circle class="p a" style="animation-duration:14.1s;animation-delay:-14.0s" cx="758.4" cy="212.0" r="19.5" fill="url(#bokeh)" opacity="0.86"/>
+<circle class="p b" style="animation-duration:13.2s;animation-delay:-7.5s" cx="857.1" cy="74.1" r="6.7" fill="url(#bokeh)" opacity="0.66"/>
+<circle class="p c" style="animation-duration:16.3s;animation-delay:-12.2s" cx="432.4" cy="165.2" r="10.6" fill="url(#bokeh)" opacity="0.77"/>
+<circle class="p a" style="animation-duration:10.1s;animation-delay:-5.1s" cx="713.3" cy="156.7" r="4.6" fill="url(#bokeh)" opacity="0.71"/>
+<circle class="p b" style="animation-duration:9.8s;animation-delay:-9.2s" cx="698.0" cy="47.3" r="9.3" fill="url(#bokeh)" opacity="0.41"/>
+<circle class="p c" style="animation-duration:16.5s;animation-delay:-3.5s" cx="872.7" cy="40.1" r="3.0" fill="url(#bokeh)" opacity="0.54"/>
+<circle class="p a" style="animation-duration:14.3s;animation-delay:-8.5s" cx="661.6" cy="172.4" r="12.5" fill="url(#bokeh)" opacity="0.44"/>
+<circle class="p b" style="animation-duration:12.7s;animation-delay:-5.0s" cx="817.4" cy="90.7" r="34.3" fill="url(#bokeh)" opacity="0.41"/>
+<circle class="p c" style="animation-duration:11.8s;animation-delay:-9.7s" cx="826.1" cy="72.8" r="17.9" fill="url(#bokeh)" opacity="0.66"/>
+<circle class="p a" style="animation-duration:9.5s;animation-delay:-5.4s" cx="565.1" cy="64.6" r="11.0" fill="url(#bokeh)" opacity="0.73"/>
+<circle class="p b" style="animation-duration:14.9s;animation-delay:-13.6s" cx="564.0" cy="178.6" r="18.8" fill="url(#bokeh)" opacity="0.45"/>
+<circle class="p c" style="animation-duration:8.0s;animation-delay:-9.4s" cx="721.9" cy="78.6" r="36.9" fill="url(#bokeh)" opacity="0.63"/>
+<circle class="p a" style="animation-duration:12.6s;animation-delay:-13.7s" cx="794.0" cy="66.6" r="8.5" fill="url(#bokeh)" opacity="0.83"/>
 </g>
 </g>
 <rect x="0.5" y="0.5" width="899" height="239" rx="16" stroke="#d0d7de"/>
@@ -96,7 +96,7 @@
 </g>
 <g class="static">
 <text class="type" x="80" y="172" textLength="183.6" lengthAdjust="spacingAndGlyphs">Software Engineer</text>
-<rect x="265.6" y="157" width="9" height="19" rx="1" fill="#d6264a"/>
+<rect x="265.6" y="157" width="9" height="19" rx="1" fill="#d1242f"/>
 </g>
 <path transform="translate(56 196) scale(0.875)" fill="#59636e" d="m12.596 11.596-3.535 3.536a1.5 1.5 0 0 1-2.122 0l-3.535-3.536a6.5 6.5 0 1 1 9.192-9.193 6.5 6.5 0 0 1 0 9.193Zm-1.06-8.132v-.001a5 5 0 1 0-7.072 7.072L8 14.07l3.536-3.534a5 5 0 0 0 0-7.072ZM8 9a2 2 0 1 1-.001-3.999A2 2 0 0 1 8 9Z"/>
 <text x="76" y="207" class="meta">Nha Trang, Việt Nam</text>
